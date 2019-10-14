@@ -110,15 +110,15 @@ jQuery(function ($) { "use strict";
 		This JavaScript function will return -1 if no occurrence have been found.*/
 		if (name.length == 0) {
 			var error = true;
-			$('#name').css("border-color", "#D8000C");
+			$('#name').css("border-color", "#D800CC");
 		} else {
-			$('#name').css("border-color", "#666");
+			$('#name').css("border-color", "#664");
 		}
 		if (email.length == 0 || email.indexOf('@') == '-1') {
 			var error = true;
-			$('#email').css("border-color", "#D8000C");
+			$('#email').css("border-color", "#D800CC");
 		} else {
-			$('#email').css("border-color", "#666");
+			$('#email').css("border-color", "#664");
 		}
 		if (subject.length == 0) {
 			var error = true;
